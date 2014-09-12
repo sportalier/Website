@@ -1,0 +1,228 @@
+/* reset */
+* {
+margin: 0;
+padding: 0;
+}
+
+body
+{
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+#Wrapper
+{
+  width: 900px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 3px 3px 7px #777;
+  -moz-box-shadow: 3px 3px 7px #777;
+  border: 3px solid #888;
+}
+
+/* header */
+header
+{
+  display: inline-block;
+  width: 100%; /*750px*/
+  margin-bottom: 20px;
+}
+
+header h1
+{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+header h2
+{
+  font-weight: normal;
+  font-size: 1.1em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+p
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#Banner
+{
+  height: 450px;
+  width: 100%;/* 89.5 */
+  margin-bottom: 70px;
+}
+
+#skuleskogen
+{
+  width: 100%;
+  height: 100%;
+}
+
+nav
+{
+  display: inline-block;
+  font-weight: bold;
+  width: 100%;
+  /*width: 740px;*/
+}
+
+nav ul
+{
+  list-style-type: none;
+  padding: 40px 0 0 40px;
+}
+
+nav li
+{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a
+{
+  font-size: 1.3em;
+  padding-bottom: 3px;
+  /*color: #181818;*/
+  text-decoration: none;
+}
+
+nav a:hover
+{
+  color: #760001;
+  border-bottom: 3px solid #760001;
+}
+
+/* body */
+section
+{
+  display: inline-block;
+  padding: 40px 20px 40px 20px;
+  text-align: justify;
+}
+
+aside
+{
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+}
+
+h1
+{
+  font-size: 2.8em;
+  margin-bottom: 30px;
+}
+
+h2
+{
+  font-size: 1.6em;
+}
+
+.author
+{
+  font-weight: bold;
+}
+
+.skill
+{
+  font-weight: bold;
+}
+
+#Publications ul
+{
+  list-style-type: none;
+}
+
+#Publications li
+{
+  padding-bottom: 2em;
+  text-align: justify;
+}
+
+#Publications h3
+{
+  padding-top: 1em;
+}
+
+#Conferences ul
+{
+  list-style-type: none;
+  display: inline-block;
+}
+
+#Conferences li
+{
+  padding-bottom: 1em;
+}
+
+#Conferences strong
+{
+  font-size: 1.5em;
+}
+
+#Affiliations h2
+{
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+#Affiliations ul
+{
+  list-style-type: none;
+}
+
+#Affiliations li
+{
+  display: inline-block;
+}
+
+#Affiliations img
+{
+  width: 25%;
+}
+
+/* footer */
+footer
+{
+  background: #B3F6FA; /*url('Pictures/line.png') repeat-x top#15F1D9;*/
+  padding: 25px 5px 20px 35px;
+}
+
+footer p, footer ul
+{
+  font-size: 0.8em;
+}
+
+footer h1
+{
+  font-size: 1.1em;
+}
+
+#Address, #Email, #Update
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#Address
+{
+  width: 40%;
+}
+
+#Address ul
+{
+  padding-left: 2px;
+  list-style-type: none;
+}
+
+#Email
+{
+  width: 35%;
+}
+
